@@ -22,20 +22,13 @@
 </head>
 
 <body class="body">
-   
-   <div class="background" id="background">
-      <div class="background_image" id="background_image">
-         <img class="background_image-smoke-cloud1" alt="smoke-image1" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke1.png">
-         <img class="background_image-smoke-cloud2" alt="smoke-image2" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke2.png">
-         <img class="background_image-smoke-cloud3" alt="smoke-image3" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke3.png">
-       </div>           
-   </div>
-    
+
+
 
    <div class="header">
-      <div class="container d-flex justify-content-between align-items-center">         
+      <div class="container d-flex justify-content-between align-items-center">
          <div class="header__logo">
-            <img src="assets/media/icons/logoweb.png" width="190" alt="logo">
+            <img src="assets/media/icons/logoweb.png" width="190" alt="logo">            
          </div>
          <div class="nav" id="menu">
             <ul class="d-flex">
@@ -43,7 +36,7 @@
                <li data-menuanchor="section-video" class="nav__link"><a href="#section-video">Video</a></li>
                <li data-menuanchor="section-about" class="nav__link"><a href="#section-about">Nosotros</a></li>
                <li data-menuanchor="section-blog" class="nav__link"><a href="#section-blog">Presentaciones</a></li>
-               
+
             </ul>
          </div>
          <button class="nav__burger d-md-none"></button>
@@ -55,16 +48,25 @@
    </div>
 
 
-   <div id="fullpage">      
+   <div id="fullpage">
       <div class="section active"data-anchor="section-home">
          <div class="hero position-relative d-flex align-items-center vh-100">
             <div class="bg-hero">
-               <img src="assets/media/hero.png" alt="hero">                                      
+               <img src="assets/media/hero.png" alt="hero">
+               <div class="background" id="background">
+                  <div class="background_image" id="background_image">
+                     <!-- <img class="background_image-smoke-cloud1" alt="smoke-image1" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke1.png"> -->
+                     <img class="background_image-smoke-cloud2" alt="smoke-image2" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke2.png">
+                     <img class="background_image-smoke-cloud3" alt="smoke-image3" src="https://oleksandrpavlyshch.github.io/mouse-move-parallax_demo/img/smoke3.png">
+                   </div>
+               </div>
+
+
             </div>
-            
-            
-                       
-            
+
+
+
+
 
             <div class="container position-relative d-flex align-items-center h-100">
                <div class="row w-100">
@@ -74,7 +76,7 @@
                         <div class="d-flex gap-3 mt-3 mt-md-5 flex-wrap">
                            <button class="button button--2"><img src="assets/media/icons/Live.svg" alt="Live">En vivo</button>
                            <!-- <button class="button button--2"><img src="assets/media/icons/ios.svg" alt="Itunes">Itunes</button> -->
-                        </div>                        
+                        </div>
                      </div>
                   </div>
                </div>
@@ -90,8 +92,8 @@
                </div>
             </div>
 
-            
-            
+
+
 
          </div>
       </div>
@@ -105,7 +107,7 @@
             <img id="icon-play" class="icon-play" src="assets/media/icons/play.svg" alt="Play">
          </div>
       </div>
-      
+
   </div>
 
 
@@ -128,7 +130,7 @@
          link.addEventListener('click', toggleBurger)
       })
 
-      
+
       new fullpage('#fullpage', {
          //options here
          autoScrolling:true,
