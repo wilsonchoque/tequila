@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+  <rect fill="#ffffff" x="-24.22" y="-5.66" transform="translate(39.50,13.21) rotate(-0.1)" width="48.44" height="11.32"
+    rx="5.50" />
+  <circle fill="#ffffff" cx="5.63" cy="13.26" r="5.50" />
+  <circle fill="#ffffff" cx="5.64" cy="32.00" r="5.50" />
+  <rect fill="#ffffff" x="15.26" y="26.49" width="48.48" height="11.10" rx="5.33" />
+  <rect fill="#ffffff" x="15.12" y="45.18" width="48.62" height="11.06" rx="5.38" />
+  <path fill="#ffffff" d="
+  M 0.00 50.94
+  L -0.02 50.45
+  C 1.95 44.05 9.22 43.20 10.93 49.41
+  C 12.84 56.32 1.73 59.73 0.00 50.94
+  Z" />
+</svg>
