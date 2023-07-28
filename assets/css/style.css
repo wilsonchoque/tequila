@@ -232,7 +232,7 @@ body {
 .background_image-smoke-cloud1 {
    -webkit-animation: wave 8s 0.1s infinite linear;
    animation: wave 8s 0.1s infinite linear;   
-   right: 100%;
+   right: 40%;
    bottom: -2%;
 }
 .background_image-smoke-cloud2 {
